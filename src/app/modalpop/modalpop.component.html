@@ -1,0 +1,32 @@
+<ng-container [ngTemplateOutlet]="modal1"></ng-container>
+
+  <ng-template #modal1>
+    
+<div class="test" tabindex="-1" role="dialog" id="myModal" >
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header f-right">
+        <button type="button" (click)="closepopup()" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="text-center"><img src="assets/img/Guide.png" /> <br/>
+          <h5 class="modal-title ins-title">Read the Instructions Carefully!</h5>
+        </div>
+     
+
+          <ul class="ins-sub-title">
+            <li>i) Complete the interviews in 30 minutes or less.</li>
+            <li>ii) The system will automatically close the test once the time is up.</li>
+            <li>iii) Once the answer is selected and moved next, user can't change the answer.</li>
+            <li>iv) There is no go previous option, so be conscious of the answer selected.</li>
+          </ul>
+
+
+        </div>
+    </div>
+  </div>
+</div>  
+  </ng-template>
+  
