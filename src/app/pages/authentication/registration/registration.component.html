@@ -1,0 +1,68 @@
+<div class="container">
+  <div class="card o-hidden border-0 shadow-lg my-5">
+    <div class="card-body p-0">
+      <div class="container">
+        <div class="row row-cols-2">
+          <div class="d-lg-block bg-register-image">
+            <img src="assets/img/requestbgimg.png" />
+          </div>
+
+          <div class="bg-danger1 text-white">
+            <div class="p-5 text-center">
+              <img src="assets/img/QBrainX-white.png" />
+              <br />
+              <div class="text-center mt-3">
+                <h1 class="h4 text-white-900 mb-4">
+                  <b>GET BETTER TALENT </b>
+                </h1>
+                <h1 class="h4 text-white-900 mb-4"><b>ASSESSMENT HERE </b></h1>
+              </div>
+
+              <!--Validation of the candidate-->
+              <div class="col-md-10">
+                <div class="mb-3 mt-3">
+                  <input
+                    type="text"
+                    class="form-control required"
+                    id="uname"
+                    placeholder="Full Name*"
+                    name="uname"
+                  />
+                  <div class="valid-feedback">Valid.</div>
+                </div>
+                <div class="mb-3 mt-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    required=""
+                    id="email"
+                    placeholder="Email Address*"
+                  />
+                  <div class="valid-feedback">Valid.</div>
+                </div>
+                <div class="mb-3 mt-3">
+                  <input
+                    type="tel"
+                    class="form-control"
+                    required=""
+                    id="phone"
+                    placeholder="Phone Number*"
+                  />
+                  <div class="valid-feedback">Valid.</div>
+                </div>
+
+                <!--Requesting Test-->
+                <a
+                  (click)="requestTest()"
+                  class="btn btn-danger1 text-white btn-user btn-block border border-white"
+                >
+                  Request Test
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
