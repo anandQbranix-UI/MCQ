@@ -9,7 +9,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root',
 })
 export class ApiConfiguration {
-  rootUrl: string = 'https://dev.flexcub.com/resource-planning';
+  rootUrl: string = 'http://dev.env.qbrainx.com/qbrainx-web';
 }
 
 /**

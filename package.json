@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "swg-mcq-api": "ng-openapi-gen -i https://dev.flexcub.com/resource-planning/v3/resource-planning-api-docs/com.flexcub -o src/app/api/mcq-api"
+    "swg-mcq-api": "ng-openapi-gen -i http://dev.env.qbrainx.com/qbrainx-web/v3/qbrainx-1336586310L-api-docs/qbrainx-website -o src/app/api/mcq-api"
   },
   "private": true,
   "dependencies": {
